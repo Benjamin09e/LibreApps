@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1350.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controlleur">
+   <children>
+      <BorderPane prefHeight="581.0" prefWidth="1350.0">
+         <top>
+            <HBox id="hbox1" fx:id="hbox1" maxHeight="545.0" maxWidth="948.0" style="-fx-background-color: #dbe8b4;" BorderPane.alignment="CENTER" />
+         </top>
+         <bottom>
+            <Separator prefWidth="200.0" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets top="-48.0" />
+               </BorderPane.margin>
+            </Separator>
+         </bottom>
+         <left>
+            <VBox prefHeight="488.0" prefWidth="100.0" BorderPane.alignment="CENTER" />
+         </left>
+      </BorderPane>
+   </children>
+</AnchorPane>
